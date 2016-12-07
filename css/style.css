@@ -1,3 +1,66 @@
-h1 {
-  color: salmon;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+@font-face {
+  font-family: circularfont;
+  src: url(../Circular_Air-Bold-c6b068854263ae24ccc36a2b944d7017.woff2)
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+h1,
+h4 {
+  color: grey;
+  text-align: center;
+  margin: 0;
+  font-family: circularfont;
+}
+
+.caption {
+  font-family: circularfont;
+  font-size: 1em;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+
+.countries {
+  position: relative;
+}
+
+.guidepics {
+  padding: 20px;
+  /*background-size: contain;*/
+  /*position: relative;*/
+}
+
+button {
+  padding: 10px;
+}
+
+.buttonguide {
+  margin: 2% 43% 2% 43%;
+}
+
+/*div {
+  border: 2px solid black;
+}*/
+
+img {
+  width: 200px;
+  height: 200px;
 }
